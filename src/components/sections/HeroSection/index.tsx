@@ -56,7 +56,7 @@ function HeroBody(props: HeroSection) {
             )}
             {subtitle && (
                 <AnnotatedField path=".subtitle">
-                    <p className={classNames('text-xl', 'sm:text-2xl', styles.subtitle ? mapStyles(styles.subtitle) : null, { 'mt-4': title })}>{subtitle}</p>
+                    <p className={classNames('text-4xl', 'sm:text-4xl', styles.subtitle ? mapStyles(styles.subtitle) : null, { 'mt-4': title })}>{subtitle}</p>
                 </AnnotatedField>
             )}
             {text && (
