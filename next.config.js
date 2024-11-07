@@ -5,6 +5,8 @@ const nextConfig = {
     },
     trailingSlash: true,
     reactStrictMode: true,
+    distDir: 'dist',
+    output: 'export',
     swcMinify: true
 };
 
